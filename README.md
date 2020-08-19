@@ -1,4 +1,7 @@
 
+This is a simple Python Django time management system that allows users create an account and log in, add (and edit and delete) a row what they have worked on, what date, for how long. This system has three roles with different permission levels: a regular user would only be able to CRUD on their owned records, a user manager would be able to CRUD users, and an admin would be able to CRUD all records and users. The system includes a REST API that makes it possible to perform all user actions via the API, including authentication and implements AJAX for better user experience.
+
+
 Features
 ========
 
